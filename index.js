@@ -1,4 +1,4 @@
-import { Client } from "@gradio/client";
+const { Client } = require('@gradio/client');
 import express from "express";
 import cors from "cors";
 
