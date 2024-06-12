@@ -58,4 +58,5 @@ async function generateImageUrls(_prompt, _negativeP, _style, _width, _height) {
 }
 
 // Export for Vercel
-export default app;
+module.exports = app; 
+
